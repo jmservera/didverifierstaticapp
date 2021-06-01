@@ -31,7 +31,7 @@ jobs:
         with:
           # Action to perform
           action: upload
-          azure_static_web_apps_api_token:  674a96992cc37b19770b43cfe9af16ba5ebf8ec9bc95064881b1605e1ac13320-565cc0ae-9ca6-48d0-97b3-8325e6965dfc00327414
+          azure_static_web_apps_api_token: ${{ secrets.STATICKEY }}
           # Directory location of the application source code
           app_location: /html
           # Identical in use to output_location
